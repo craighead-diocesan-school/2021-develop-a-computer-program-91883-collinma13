@@ -16,5 +16,9 @@ function guessNumber() {
     } else if (guess > randomNum) {
         // if greater than randomNum
         alert("Your guess is too high")
+
+    } else if (guess == randomNum){
+        // dont use single equals sign because that is the asignment operater
+        alert("You guessed the number. You Win!")
     }
 }
