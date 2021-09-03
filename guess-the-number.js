@@ -1,8 +1,16 @@
 // Your code goes in this file.
 function guessNumber() {
-let ramdomNum = Math.floor(Math.random() * 21);
-// reveal a variable 
-let guess; 
-guess = prompt("Enter a number between 0 and 20");
- 
+    let randomNum = Math.floor(Math.random() * 21);
+
+    // output to consule to debug
+    console.log(randomNum);
+    // new revealed variable 
+    let guess;
+    guess = prompt("Enter a number between 0 and 20");
+    // console.log("Your guess is: " + guess);
+
+    if (guess < randomNum) {
+        // if less than randomNum  
+        alert("Your guess is too low");
+    }
 }
