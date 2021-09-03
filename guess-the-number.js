@@ -20,5 +20,8 @@ function guessNumber() {
     } else if (guess == randomNum){
         // dont use single equals sign because that is the asignment operater
         alert("You guessed the number. You Win!")
+    } else {
+        alert("Error")
+        // if the user doesnt understand and inserts words instead
     }
 }
