@@ -12,5 +12,9 @@ function guessNumber() {
     if (guess < randomNum) {
         // if less than randomNum  
         alert("Your guess is too low");
+
+    } else if (guess > randomNum) {
+        // if greater than randomNum
+        alert("Your guess is too high")
     }
 }
