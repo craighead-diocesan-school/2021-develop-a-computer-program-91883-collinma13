@@ -6,7 +6,7 @@ function guessNumber() {
     console.log(randomNum);
     // new revealed variable 
     let guess;
-    guess = prompt("Enter a number between 0 and 20");
+    guess = prompt("Enter a number between 1 and 20");
     // console.log("Your guess is: " + guess);
 
     if (guess < randomNum) {
