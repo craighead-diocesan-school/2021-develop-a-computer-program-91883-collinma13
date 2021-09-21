@@ -15,16 +15,15 @@ function playGame() {
         alert('You are playing guess the number. Pick a number between 1 and 20! ')
         // grabs name from function 1 
         getName()
-
+        
+        // regenerates number 
         let randomNum = Math.floor(Math.random() * 20) + 1
-        alert(randomNum)
 
         // 2+ variables
         let maxTries = 3
         let counter = 0
 
         // while loop
-        // if counter 
         while (counter <= maxTries) {
             let guess = prompt("Enter a number between 1 and 20")
             if (!isNaN(guess)) {
@@ -39,6 +38,7 @@ function playGame() {
                 alert('error!') 
             }  
         }
+        // rerun 
         rerun = prompt('do you want to play again? ')
     }
 }
